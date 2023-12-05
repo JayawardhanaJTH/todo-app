@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 module.exports = function(){
-  const db = "mongodb+srv://hiru:hiru@cluster0.nkjb8w0.mongodb.net/todo-app?retryWrites=true&w=majority"
+  const db = "mmongodb+srv://tiranHarsha:tiran@123@cluster0.rwpfvjo.mongodb.net/?retryWrites=true&w=majority"
     mongoose.connect(db,{
       useNewUrlParser: true,
       useUnifiedTopology: true,
